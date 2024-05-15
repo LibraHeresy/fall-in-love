@@ -1,0 +1,28 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  .animation-delay-1000 {
+    animation-delay: 1000ms;
+  }
+  .animation-delay-2000 {
+    animation-delay: 2000ms;
+  }
+  .animation-delay-3000 {
+    animation-delay: 3000ms;
+  }
+  .animation-delay-5000 {
+    animation-delay: 5000ms;
+  }
+  .animation-delay-10000 {
+    animation-delay: 10000ms;
+  }
+  .animation-delay-15000 {
+    animation-delay: 15000ms;
+  }
+  .animation-delay-20000 {
+    animation-delay: 20000ms;
+  }
+}
